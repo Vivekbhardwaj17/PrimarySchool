@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="primarylahra">
+    <output-path>$PROJECT_DIR$/out/artifacts/primarylahra</output-path>
+    <root id="root">
+      <element id="archive" name="primarylahra.jar">
+        <element id="module-output" name="primarylahra" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller">
+   <children>
+      <TextField layoutX="659.0" layoutY="337.0" promptText="set your username" />
+      <Label layoutX="543.0" layoutY="337.0" prefHeight="25.0" prefWidth="97.0" text="Username">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="543.0" layoutY="388.0" prefHeight="25.0" prefWidth="64.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="659.0" layoutY="388.0" promptText="set your password" />
+      <PasswordField layoutX="659.0" layoutY="437.0" promptText="Re - enter your password" />
+      <Label layoutX="543.0" layoutY="483.0" prefHeight="25.0" prefWidth="97.0" text="Your Nickname">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="659.0" layoutY="483.0" promptText="like  nicky" />
+      <Label layoutX="543.0" layoutY="138.0" prefHeight="84.0" prefWidth="315.0" text="P.S. Lahra-2" textFill="#0e16b2">
+         <font>
+            <Font size="57.0" />
+         </font>
+      </Label>
+      <Button fx:id="nwUser" layoutX="795.0" layoutY="613.0" mnemonicParsing="false" onAction="#savenwUser" text="Save Details">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="nwUsrBackButton" layoutX="555.0" layoutY="613.0" mnemonicParsing="false" onAction="#onnwUserBackButton" prefHeight="30.0" prefWidth="78.0" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="addmsg" layoutX="593.0" layoutY="544.0" prefHeight="17.0" prefWidth="245.0" textFill="#156108" />
+   </children>
+</AnchorPane>
